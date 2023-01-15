@@ -1,6 +1,5 @@
 pipeline {
     agent any 
-
     stages{
         stage("one"){
             steps{
@@ -21,7 +20,6 @@ pipeline {
             }
         }
     } 
-
     post{
       always{
           echo 'This pipeline is completed.'

@@ -11,7 +11,7 @@ pipeline {
           steps{
               echo 'step 2'
               sleep 9
-          } 
+          }
       }
       stage("three"){
           steps{
